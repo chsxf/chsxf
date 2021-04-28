@@ -14,3 +14,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+🔭 Currently working as a Lead Developer Unity C# on [Crying Suns](https://cryingsuns.com) and some unannounced projects at [Alt Shift](https://altshift.fr)
+
+🍏 I've been an Apple user for a long time and I am exploring the many frameworks you can find in the Apple ecosystem.
+
+📫 How to reach me ➡️ [Twitter](https://twitter.com/chsxf) (DMs are open)
+
+[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=chsxf&showicons=true)]()
+
+[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=chsxf&layout=compact)]()

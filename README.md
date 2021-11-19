@@ -23,6 +23,6 @@ Here are some ideas to get you started:
 
 📫 You can reach me on [Twitter](https://twitter.com/chsxf) or [LinkedIn](https://www.linkedin.com/in/christophesauveur/) (DMs are open)
 
-[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=chsxf&showicons=true)]()
+[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=chsxf&showicons=true&count_private=true)]()
 
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=chsxf&layout=compact&exclude_repo=unity-built-in-shaders)]()

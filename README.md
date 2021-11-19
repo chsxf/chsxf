@@ -25,4 +25,4 @@ Here are some ideas to get you started:
 
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=chsxf&showicons=true&count_private=true)]()
 
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=chsxf&layout=compact&exclude_repo=unity-built-in-shaders)]()
+[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=chsxf&layout=compact&exclude_repo=unity-built-in-shaders&langs_count=10)]()

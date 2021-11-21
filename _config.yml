@@ -18,25 +18,41 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: chsxf devlog
+email: chsxf.pro@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Lead developer Unity C# at <a href="https://altshift.fr">Alt Shift</a> by day, hobbyist game dev the rest of the time.
+  <br /><br />
+  <em>Apple user for more than 15 years. Expect most projects here to be Apple-compatible only.</em>
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://chsxf.dev" # the base hostname & protocol for your site, e.g. http://example.com
+author: Christophe SAUVEUR
+twitter_username: chsxf
+github_username:  chsxf
+#hide_description_in_side_bar: true
 
 # Build settings
-theme: jekyll-theme-minimal
-remote_theme: chsxf/minimal@v0.2.0
+#theme: jekyll-theme-minimal
+remote_theme: chsxf/improved-minimal@v0.2.1
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
 
 github:
   is_project_page: false
+  is_user_page: true
+  owner_username: chsxf
+  owner_url: https://github.com/chsxf
+  show_user_stats: true
+  show_langs_stats: true
+
+google_analytics: G-95625D8V1Q
+
+pagination:
+  enabled: true
+  per_page: 2
+  sort_reverse: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

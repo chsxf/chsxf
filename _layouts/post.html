@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<h1>{{ page.title }}</h1>
+
+<p class="view">by {{ page.author | default: site.author }}</p>
+
+{{content}}
+
+{% if page.tags %}
+<!--
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+-->
+{% endif %}
+
+{% if page.previous or page.next %}
+<div class="pagination">
+  {% if page.previous %}
+  <div class="pagination-previous-post">&laquo; <a href="{{ page.previous.url }}">Previous post</a></div>
+  {% endif %}
+  {% if page.next %}
+  <div class="pagination-next-post"><a href="{{ page.next.url }}">Next post</a> &raquo;</div>
+  {% endif %}
+</div>
+{% endif %}

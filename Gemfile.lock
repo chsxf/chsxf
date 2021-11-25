@@ -144,8 +144,6 @@ GEM
     jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
     jekyll-paginate (1.1.0)
-    jekyll-paginate-v2 (3.0.0)
-      jekyll (>= 3.0, < 5.0)
     jekyll-readme-index (0.3.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-redirect-from (0.16.0)
@@ -227,7 +225,6 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.14.4)
     multipart-post (2.1.1)
-    netrc (0.11.0)
     nokogiri (1.12.5-x86_64-darwin)
       racc (~> 1.4)
     octokit (4.21.0)
@@ -276,9 +273,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 219)
-  jekyll-paginate-v2
   jekyll-remote-theme
-  netrc
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

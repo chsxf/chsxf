@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
-    <link rel="stylesheet" href="{{ "assets/css/style.css?v=" | append: site.github.build_revision | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | prepend: relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -41,7 +41,7 @@
 
         <ul class="socials">
         {% for entry in site.socials %}
-          <li><img src="{{ entry.img | prepend: "assets/img/" | prepend: site.baseurl }}" /><a href="{{ entry.url }}" target="_blank">{{ entry.name }}</a></li>
+          <li><img src="{{ entry.img | prepend: "assets/img/" | relative_url }}" /><a href="{{ entry.url }}" target="_blank">{{ entry.name }}</a></li>
         {% endfor %}
         </ul>
 

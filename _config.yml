@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   <br />
   Apple user for more than 15 years. Expect most projects here to be Apple-compatible only.
   <br /><br />
-  <em>If you're looking for info about Alt Shift's commercial projects, check my <a href="https://chsxf.medium.com">Medium page</a>, or Alt Shift social acounts.</em>
+  <em>If you're looking for info about Alt Shift's commercial projects, check my <a href="https://chsxf.medium.com">Medium</a> page, or Alt Shift social accounts.</em>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chsxf.dev" # the base hostname & protocol for your site, e.g. http://example.com
 author: Christophe SAUVEUR

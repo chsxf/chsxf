@@ -21,15 +21,30 @@
 title: chsxf devlog
 email: chsxf.pro@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Lead developer Unity C# at <a href="https://altshift.fr">Alt Shift</a> by day, hobbyist game dev the rest of the time.
+  Lead developer Unity C# at <a href="https://altshift.fr">Alt Shift</a> by day, hobbyist game dev the rest of the time, this devlog is all about my personal works.
+  <br />
+  Apple user for more than 15 years. Expect most projects here to be Apple-compatible only.
   <br /><br />
-  <em>Apple user for more than 15 years. Expect most projects here to be Apple-compatible only.</em>
+  <em>If you're looking for info about Alt Shift's commercial projects, check my <a href="https://chsxf.medium.com">Medium page</a>, or Alt Shift social acounts.</em>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chsxf.dev" # the base hostname & protocol for your site, e.g. http://example.com
 author: Christophe SAUVEUR
-twitter_username: chsxf
-github_username:  chsxf
-#hide_description_in_side_bar: true
+
+socials:
+  - name: GitHub
+    url: https://github.com/chsxf
+    img: github.png
+  - name: Twitter
+    url: https://twitter.com/chsxf
+    img: twitter.png
+  - name: Medium
+    url: https://chsxf.medium.com
+    img: medium.png
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/christophesauveur/
+    img: linkedin.png
+
+logo: https://avatars.githubusercontent.com/u/3322862
 
 # Build settings
 #theme: jekyll-theme-minimal

@@ -18,7 +18,7 @@
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <p><img src="{{site.logo | relative_url}}" alt="Logo" class="header-logo" /></p>
         {% endif %}
 
         {% if site.hide_description_in_side_bar != true %}
@@ -36,8 +36,14 @@
         {% if site.github.show_langs_stats %}
         <p class="view"><a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/top-langs/?theme=github_dark&hide_title=1&layout=compact&exclude_repo=unity-built-in-shaders&username={{ site.github.owner_username }}" /></a></p>
         {% endif %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+        <!--<p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>-->
         {% endif %}
+
+        <ul class="socials">
+        {% for entry in site.socials %}
+          <li><img src="{{ entry.img | prepend: "assets/img/" | prepend: site.baseurl }}" /><a href="{{ entry.url }}" target="_blank">{{ entry.name }}</a></li>
+        {% endfor %}
+        </ul>
 
         {% if site.show_downloads %}
         <ul class="downloads">

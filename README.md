@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 
 🐘 I'm also an experienced PHP developer _(and probably a little overprotective of our beloved language)_
 
-📫 You can reach me on [Twitter](https://twitter.com/chsxf) or [LinkedIn](https://www.linkedin.com/in/christophesauveur/) (DMs are open)
+📫 You can also reach me on [Twitter](https://twitter.com/chsxf), [Medium](https://chsxf.medium.com) or [LinkedIn](https://www.linkedin.com/in/christophesauveur/) (DMs are open)
 
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=chsxf&showicons=true&count_private=true)]()
 

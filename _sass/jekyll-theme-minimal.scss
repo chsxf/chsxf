@@ -54,6 +54,14 @@ header ul.socials {
 }
 
 .post {
+  border-top: 1px solid white;
+  padding-top: 10px;
+
+  &:first-child {
+    border-top: none;
+    padding-top: 0;
+  }
+
   h1 {
     font-size: 18px;
   }
@@ -68,6 +76,14 @@ header ul.socials {
 
   h4, h5, h6 {
     font-size: 100%;
+  }
+
+  .post-more-link {
+    margin-bottom: 40px;
+  }
+
+  .post-excerpt {
+    margin-bottom: 20px;
   }
 }
 
@@ -114,6 +130,10 @@ a small {
 
 a:hover small {
   color:#777;
+}
+
+a > code {
+  color: inherit !important;
 }
 
 .wrapper {
@@ -285,8 +305,28 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-@media print, screen and (max-width: 960px) {
+img + em {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+}
 
+@media screen and (min-width: 960px) {
+  body {
+    &.layout-post {
+      div.wrapper {
+        width: 960px;
+      }
+
+      section {
+        width: 600px;
+        text-align: justify;
+      }
+    }
+  }
+}
+
+@media print, screen and (max-width: 960px) {
   div.wrapper {
     width:auto;
     margin:0;

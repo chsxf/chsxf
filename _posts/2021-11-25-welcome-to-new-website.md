@@ -2,7 +2,6 @@
 layout: post
 title: "Welcome to my New Website!"
 date: 2021-11-25 06:30:42 +0100
-#excerpt_separator: <!--more-->
 ---
 
 A few months ago, I shifted the way I was handling my personal projects to better combine my interests and being able to keep up with new technologies (like Swift, SwiftUI, Metal or Vulkan).
@@ -12,7 +11,7 @@ But then, I realized I had no place to share progress about everything I do. [Tw
 And as some aspects of the professional projects I'm involved in at [Alt Shift] are already detailed on my [Medium] page, I wanted a special place for my personal work.
 
 So, here's my devlog!
-
+<!--more-->
 # What Will You Find Here
 
 I want to start small and grow slowly, so don't expect ground-breaking news right away.

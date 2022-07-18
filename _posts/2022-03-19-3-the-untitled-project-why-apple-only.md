@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Untitled Project - Why Apple Only?"
+date: 2022-03-19 12:00:00 +0100
 image: /assets/posts/3/apple-ecosystem.png
 excerpt: >
     In my previous post, I introduced The Untitled Project as a project targeting only Apple platforms. This may sound strange. Obviously, using only Apple proprietary frameworks basically prevents you from releasing your apps and games anywhere else easily. Why would anyone make that choice in the first place? In this post, I'll talk about my reasons, other than personal preference.

@@ -20,7 +20,7 @@ At a glance, you would intuitively think `absoluteFileURL` is equal to the like 
 
 Obviously, I was wrong. The result is in fact `file://Users/chsxf/MyFile.txt`.
 
-That created a weird bug in my code while working on [The Untitled Project](/2022/01/15/2-the-untitled-project.html). The FileManger's `createDirectory(at:withIntermediateDirectories:attributes:)` method would only create the last folder relative to my base URL, and not all parent sub-folders, even though the final URL was iteratively built as relative to every one of them.
+That created a weird bug in my code while working on [The Untitled Project](/2022/01/15/2-the-untitled-project.html). The FileManager's `createDirectory(at:withIntermediateDirectories:attributes:)` method would only create the last folder relative to my base URL, and not all parent sub-folders, even though the final URL was iteratively built as relative to every one of them.
 
 After digging into this issue for several hours, I started to think there was a bug in the Foundation framework. But, as I was firing the Feedback Assistant to report the issue to Apple, I discovered the `URL(fileURLWithPath:isDirectory:relativeTo:)` variant of the `URL` initializer.
 
@@ -30,6 +30,6 @@ In my case, the right solution was:
 let folderURL = URL(fileURLWithPath: "MyFolder", isDirectory: true, relativeTo: homeDirectoryURL)
 ```
 
-As always, the bug was between the chair and the keyboard. The problem that the last path component of my relative URL was considered a file name. And creating another URL relative to this same URL was only replacing this last component.
+As always, the bug was between the chair and the keyboard. The problem was that the last path component of my relative URL was considered a file name. And creating another URL relative to this same URL was only replacing that last component.
 
-However, as wrong as I was, URLs and those initialisers can be very counter-intuitive. So I hope this small post will help some of you to avoid this kind of issues.
+However, as wrong as I was, URLs and those initialisers can be very counter-intuitive. So I hope this small post will help some of you avoiding this kind of issues.

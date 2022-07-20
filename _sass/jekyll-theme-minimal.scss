@@ -136,6 +136,10 @@ a:hover small {
   color:#777;
 }
 
+p code {
+  word-break: break-all;
+}
+
 a > code {
   color: inherit !important;
 }

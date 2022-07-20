@@ -52,7 +52,7 @@ Both of these aspects are helping bringing your apps and games to low-end hardwa
 
 # The Hardware
 
-Sure, Macs are not gaming machines per say. For a long time, only high-end Macs have been equipped with proper discrete GPUs, leaving only suffering Intel integrated GPU to the rest of the crowd. That doesn't mean those low-end machines can't run *some* games.
+Sure, Macs are not gaming machines per say. For a long time, only high-end Macs have been equipped with proper discrete GPUs, leaving only suffering Intel integrated GPUs to the rest of the crowd. That doesn't mean those low-end machines can't run *some* games.
 
 Sure, playing on a touch device is nothing compared to using a game controller. And even so, there are a lot of mobile players out there. The vast majority is not using a game controller, and if it was ever needed, iOS now offers a [built-in virtual controller](https://developer.apple.com/documentation/gamecontroller/gcvirtualcontroller) game developers can implement in their games to lower the entry barrier.
 

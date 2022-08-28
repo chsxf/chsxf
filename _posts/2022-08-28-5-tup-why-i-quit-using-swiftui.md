@@ -4,7 +4,7 @@ title: "Why I Quit Using SwiftUI"
 date: 2022-08-28 12:00:00 +0100
 image: /assets/posts/5/map-editor-with-inspector.png
 excerpt: >
-    SwiftUI is currently the new trend in the Apple development world. And I wanted to give it a try. I did. However, in this post, I will explain why I went back to AppKit for The Untitled Project's authoring tools.
+    SwiftUI is currently the new trend in the Apple development world. And I wanted to give it a try. I did. However, in this post, I explain why I went back to AppKit for The Untitled Project's authoring tools.
 ---
 
 As [CiderKit](https://github.com/chsxf/CiderKit-Test_Project), the authoring tools for **The Untitled Project**, starts taking shape and becomes more complex, I needed to create windows and UI elements for various purposes. My journey started with the Project Selector. As this is also a learning process, I chose to use [SwiftUI](https://developer.apple.com/xcode/swiftui/) and try to understand its inner workings.

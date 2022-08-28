@@ -1,0 +1,88 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #161414;
+        color: #818181;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: white;
+    }
+
+    a {
+        color: #267CB9;
+    }
+
+    a:hover, a:focus {
+        color:#ff9900;
+    }
+
+    a small {
+        color:#999;
+    }
+    
+    a:hover small {
+        color:#999;
+    }
+
+    blockquote {
+        border-left-color: #e5e5e5;
+    }
+
+    code {
+        color: #ccc;
+    }
+    
+    pre {
+        color:#aaa;
+    }
+
+    pre {
+        background: #000;
+        border-color: #333;
+    }
+
+    th, td {
+        border-bottom-color: #777;
+    }
+
+    dt {
+        color: #aaa;
+    }
+
+    th {
+        color: #aaa;
+    }
+
+    ul.downloads {
+        background: #000;
+        border-color: #333;
+    }
+
+    .downloads li {
+        border-right-color: #333;
+    }
+
+    .downloads a {
+        color: #aaa;
+    }
+
+    .downloads a:hover, .downloads a:focus {
+        color: #ccc;
+    }
+
+    strong {
+        color: #999;
+    }
+
+    .downloads a strong {
+        color: #444;
+    }
+
+    hr {
+        background: #777;
+    }
+
+    .highlight {
+        border-radius: 5px;
+    }
+}

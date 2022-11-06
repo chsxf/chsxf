@@ -44,7 +44,7 @@
 
           <ul class="socials">
           {% for entry in site.socials %}
-            <li><img src="{{ entry.img | prepend: "assets/img/" | relative_url }}" /><a href="{{ entry.url }}" target="_blank">{{ entry.name }}</a></li>
+            <li><img src="{{ entry.img | prepend: "assets/img/" | relative_url }}" /><a href="{{ entry.url }}" target="_blank" rel="me">{{ entry.name }}</a></li>
           {% endfor %}
           </ul>
 

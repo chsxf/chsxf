@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -22,14 +22,14 @@ title: chsxf devlog
 email: chsxf.pro@gmail.com
 tagline: Discover everything about my personal works as a game dev, mostly on Apple platforms.
 description: >- # this means to ignore newlines until "baseurl:"
-  Lead developer Unity C# at <a href="https://altshift.fr">Alt Shift</a> by day, hobbyist game dev the rest of the time, this devlog is all about my personal works.
+  Senior Unity Developer at <a href="https://altshift.fr">Alt Shift</a> by day, hobbyist game dev the rest of the time, this devlog is all about my personal works.
   <br />
   Apple user for more than 15 years. Expect most projects here to be Apple-compatible only.
   <br /><br />
   <em>If you're looking for info about Alt Shift's commercial projects, check my <a href="https://chsxf.medium.com">Medium</a> page, or Alt Shift social accounts.</em>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chsxf.dev" # the base hostname & protocol for your site, e.g. http://example.com
-author: 
+author:
   name: Christophe SAUVEUR
   twitter: chsxf
 
@@ -60,9 +60,7 @@ logo: https://avatars.githubusercontent.com/u/3322862
 
 # Build settings
 #theme: jekyll-theme-minimal
-remote_theme: chsxf/improved-minimal@v0.2.1
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-paginate
 
@@ -80,7 +78,6 @@ paginate: 5
 paginate_path: "/page:num"
 
 excerpt_separator: <!--more-->
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

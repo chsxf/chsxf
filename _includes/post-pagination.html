@@ -1,0 +1,13 @@
+{% if page.previous or page.next %}
+<div class="pagination">
+    <div class="center-column">
+        {% if page.previous %}
+        <div class="pagination-previous-post">&laquo; <a href="{{ page.previous.url }}">Previous post<span class="post-title"> - {{ page.previous.title }}</span></a></div>
+        {% endif %}
+        {% if page.next %}
+        <div class="pagination-next-post"><a href="{{ page.next.url }}">Next post<span class="post-title"> - {{ page.next.title }}</span></a> &raquo;</div>
+        {% endif %}
+        &nbsp;
+    </div>
+</div>
+{% endif %}

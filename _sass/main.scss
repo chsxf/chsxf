@@ -1,0 +1,293 @@
+* {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.center-column {
+  margin: 0 auto;
+  position: relative;
+}
+
+a {
+  font-weight: bold;
+  color: inherit;
+
+  &:hover {
+    color: orangered;
+  }
+}
+
+#top-bar {
+  height: 50px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 10000;
+
+  .site-logo {
+    padding: 0;
+    padding-top: 4px;
+    margin: 0;
+
+    display: inline-block;
+    height: 36px;
+    width: 104px;
+
+    position: relative;
+
+    * {
+      font-family: "Righteous", sans-serif;
+    }
+
+    a:hover {
+      .logo-primary-part {
+        color: orangered;
+      }
+    }
+
+    span {
+      position: absolute;
+      font-family: inherit;
+    }
+
+    .logo-primary-part {
+      font-size: 36px;
+    }
+
+    .logo-middle-part {
+      font-size: 24px;
+
+      right: 8px;
+      bottom: -4.75px;
+    }
+
+    .logo-secondary-part {
+      font-size: 16.75px;
+      transform: rotate(270deg);
+
+      bottom: 4px;
+      right: -10px;
+    }
+  }
+
+  ul.links {
+    float: right;
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    position: absolute;
+    right: 0;
+    top: 13px;
+
+    li {
+      display: inline-block;
+      margin-left: 8px;
+
+      &.social-link {
+        img {
+          width: 24px;
+        }
+
+        a:hover img {
+          filter: invert(65%) sepia(89%) saturate(3669%) hue-rotate(2deg)
+            brightness(101%) contrast(105%);
+        }
+
+        span.link-name {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+#content-wrapper {
+  padding: 50px 0 0 0;
+
+  .pagination {
+    padding: 10px 0;
+    text-align: center;
+
+    .pagination-previous,
+    .pagination-next-post {
+      float: right;
+    }
+
+    .pagination-next,
+    .pagination-previous-post {
+      float: left;
+    }
+
+    .pagination-previous-post,
+    .pagination-next-post {
+      .post-title {
+        font-weight: 200;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: inherit;
+    }
+  }
+}
+
+.layout-home {
+  position: relative;
+
+  section.posts {
+    padding: 20px 0;
+
+    .post {
+      margin-top: 40px;
+
+      &:first-of-type {
+        margin-top: 0;
+      }
+
+      .post-time {
+        float: left;
+        font-style: italic;
+        font-size: 14px;
+        padding: 10px;
+        width: 50px;
+        height: 74px;
+        border-top-left-radius: 5px;
+        box-sizing: border-box;
+        text-align: right;
+      }
+
+      h1 {
+        right: 0;
+        margin: 0;
+        margin-left: 50px;
+        height: 74px;
+        border-top-right-radius: 5px;
+
+        a {
+          text-decoration: none;
+          padding-left: 10px;
+          height: 74px;
+          display: table-cell;
+          vertical-align: middle;
+        }
+      }
+
+      .post-image img {
+        display: block;
+        background: transparent;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+
+      .post-excerpt,
+      .post-more-link {
+        text-align: justify;
+      }
+    }
+  }
+
+  section.about-me {
+    padding: 20px 20px 0 20px;
+    background-color: #eeeeee;
+    text-align: justify;
+    border-radius: 5px;
+
+    h2 {
+      margin-top: 0;
+    }
+
+    img {
+      &.header-logo {
+        border-radius: 5px;
+      }
+    }
+
+    div.github-stats {
+      width: 260px;
+      overflow: hidden;
+
+      img {
+        position: relative;
+        left: -24px;
+      }
+    }
+
+    hr {
+      position: relative;
+      margin: 0;
+      height: 5px;
+      background: #404040;
+      border: none;
+    }
+  }
+}
+
+footer {
+  font-size: 12px;
+  font-style: italic;
+  padding: 10px 0;
+}
+
+.layout-post {
+  section {
+    img {
+      border-radius: 5px;
+      text-align: center;
+
+      ~ em {
+        font-size: 14px;
+      }
+    }
+
+    p code {
+      font-family: "Source Code Pro", monospace;
+      color: orange;
+    }
+
+    h1 {
+      &:first-of-type {
+        margin-bottom: 10px;
+        text-align: center;
+      }
+    }
+
+    p {
+      margin: 25px 0;
+      text-align: justify;
+    }
+
+    > :last-child {
+      margin-bottom: 40px;
+    }
+
+    .post-date {
+      padding: 5px 15px;
+      border-radius: 5px;
+      font-style: italic;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .footnotes {
+      p {
+        margin: 0;
+        font-size: 14px;
+      }
+    }
+
+    sup a.footnote {
+      text-decoration: none;
+    }
+  }
+}

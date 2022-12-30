@@ -1,0 +1,68 @@
+@media (prefers-color-scheme: light) {
+  #top-bar {
+    background: lightgray;
+
+    .site-logo {
+      .logo-primary-part {
+        color: black;
+      }
+
+      .logo-middle-part {
+        color: gray;
+      }
+
+      .logo-secondary-part {
+        color: gray;
+      }
+    }
+
+    ul.links li.social-link img {
+      filter: invert(100%);
+    }
+  }
+
+  #content-wrapper {
+    .pagination {
+      background: #404040;
+      color: white;
+    }
+  }
+
+  .layout-home {
+    section.posts {
+      .post {
+        .post-time {
+          background: lightgray;
+        }
+
+        h1 {
+          background-color: #404040;
+
+          a {
+            color: white;
+          }
+        }
+
+        .post-image img {
+          background: linear-gradient(
+            180deg,
+            rgba(240, 240, 240, 1) 0%,
+            rgba(255, 255, 255, 0) 50%
+          );
+        }
+      }
+    }
+  }
+
+  footer {
+    background-color: lightgray;
+  }
+
+  .layout-post {
+    section {
+      .post-date {
+        background: lightgray;
+      }
+    }
+  }
+}

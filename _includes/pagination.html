@@ -1,0 +1,13 @@
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+    <div class="center-column">
+        {% if paginator.next_page %}
+        <div class="pagination-next">&laquo; <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older posts</a></div>
+        {% endif %}
+        {% if paginator.previous_page %}
+        <div class="pagination-previous"><a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer posts</a> &raquo;</div>
+        {% endif %}
+        Page {{ paginator.page }} of {{ paginator.total_pages }}
+    </div>
+</div>
+{% endif %}

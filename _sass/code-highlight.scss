@@ -3,7 +3,7 @@ pre.highlight {
   color: white;
   background-color: black;
   font-size: 14px;
-  overflow: scroll;
+  overflow: auto;
   border-radius: 5px;
 
   * {
@@ -22,12 +22,10 @@ pre.highlight {
   font-style: italic;
 }
 .highlight .cp {
-  color: #999999;
-  font-weight: bold;
+  color: #E47C48;
 }
 .highlight .c1 {
-  color: #999988;
-  font-style: italic;
+  color: #41CC45;
 }
 .highlight .cs {
   color: #999999;

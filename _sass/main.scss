@@ -266,6 +266,15 @@ footer {
       }
     }
 
+    h2 {
+      margin-bottom: 10px;
+      font-size: 20px;
+
+      + p {
+        margin-top: 10px;
+      }
+    }
+
     p {
       margin: 25px 0;
       text-align: justify;

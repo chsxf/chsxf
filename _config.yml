@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: chsxf devlog
+title: chsxf.dev
 email: chsxf.pro@gmail.com
 tagline: Discover everything about my personal works as a game dev, mostly on Apple platforms.
 description: >- # this means to ignore newlines until "baseurl:"

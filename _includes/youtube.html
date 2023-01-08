@@ -1,0 +1,35 @@
+<script>
+    if (!document.youtubeScriptAdded) {
+        document.youtubeIds = [];
+        document.youtubeScriptAdded = true;
+
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        function onYouTubeIframeAPIReady() {
+            for (var videoId of document.youtubeIds) {
+                var playerId = `player_${videoId}`;
+                var playerElement = document.getElementById(playerId);
+                var playerWidth = playerElement.offsetWidth;
+                var playerHeight = Math.ceil(playerWidth / 16 * 9);
+
+                var player = new YT.Player(`player_${videoId}`, {
+                    height: playerHeight,
+                    width: playerWidth,
+                    videoId: videoId,
+                    playerVars: {
+                        autoplay: 0,
+                        modestbranding: 1,
+                        rel: 0
+                    }
+                });
+            }
+        }
+    }
+
+    document.youtubeIds.push("{{ include.video_id }}");
+</script>
+
+<div id="player_{{ include.video_id }}" class="youtube-video-player"></div>

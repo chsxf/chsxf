@@ -25,6 +25,6 @@ Here are some ideas to get you started:
 
 🔖 There's also my [personal devlog](https://chsxf.dev)
 
-[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=chsxf&showicons=true&count_private=true)]()
+[![My GitHub Stats](https://github-readme-stats-beige-gamma-47.vercel.app/api/?username=chsxf&showicons=true&count_private=true)]()
 
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=chsxf&layout=compact&exclude_repo=unity-built-in-shaders&langs_count=8)]()
+[![My GitHub Language Stats](https://github-readme-stats-beige-gamma-47.vercel.app/api/top-langs/?username=chsxf&layout=compact&exclude_repo=unity-built-in-shaders&langs_count=8)]()

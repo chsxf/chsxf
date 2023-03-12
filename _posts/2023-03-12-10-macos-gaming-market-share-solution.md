@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "The macOS Gaming Market Share Solution"
+title: "A macOS Gaming Market Share Solution"
 date: 2023-03-12 12:00:00 +0100
 image: /assets/posts/10/mac-gaming.png
 excerpt: >
   In its early days, Apple (and subsequently the Mac) was a big player in the gaming market. But as time went by, the global Apple market share in the personal computer segment plumeted. And so went its relevance with gaming. In this post, I discuss the issues Apple is facing in the desktop gaming market and potential solutions that in my humble opinion could improve the situation.
 ---
+
+![Header Image](/assets/posts/10/mac-gaming.png)
 
 In its early days, Apple (and subsequently the Mac) was a big player in the gaming market. Many important titles (like [Myst](https://en.wikipedia.org/wiki/Myst)) and influential studios (like [Bungie](https://en.wikipedia.org/wiki/Bungie)) were born in the Apple ecosystem of yesteryears. But as time went by, due to many factors, the global Apple market share in the personal computer segment plumeted. And so went its relevance with gaming, as Richard Moss noted in his [Secret History of Mac Gaming](https://www.bitmapbooks.com/collections/all-books/products/the-secret-history-of-mac-gaming-expanded-edition).
 

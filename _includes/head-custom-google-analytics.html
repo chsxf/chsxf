@@ -1,4 +1,4 @@
-{% if site.google_analytics and site.host != '127.0.0.1' and site.host != 'localhost' %}
+{% if site.google_analytics and jekyll.environment != 'development' %}
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];

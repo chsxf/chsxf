@@ -302,5 +302,11 @@ footer {
     sup a.footnote {
       text-decoration: none;
     }
+
+    ol, ul {
+      li {
+        margin-bottom: 10px;
+      }
+    }
   }
 }

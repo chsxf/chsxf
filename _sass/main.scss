@@ -254,9 +254,12 @@ footer {
       }
     }
 
-    p code {
-      font-family: "Source Code Pro", monospace;
-      color: orange;
+    p, ul, ol {
+      code {
+        font-family: "Source Code Pro", monospace;
+        color: orange;
+        font-size: 15px;
+      }
     }
 
     h1 {

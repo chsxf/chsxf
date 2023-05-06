@@ -35,3 +35,5 @@ Here's the list of existing or missing features:
 # What's Next?
 
 I plan to implement ways to extend the capabilities of the parser, notably with a specific model for custom validation and functions. That will allow the use of CiderCSSKit in other contexts than CiderKit's UI management. I hope that in the future, the package will be agnostic enough to be use by anyone out there. But for now, I have to test it in real situations and improve.
+
+_[Header image](https://commons.wikimedia.org/wiki/File:Cascading_Style_Sheets.jpg) by [Negative Space](https://negativespace.co/) under [Creative Commons CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)_

@@ -57,7 +57,7 @@ One last thing is that we have no control over the generated atlases. There is n
 
 ## Double Trouble Scenes
 
-The Scene Editor allows for a lot of customization and is very useful to visualize your scenes. However, don't try to work in teams on complex scenes (or on particle systems, whose files share the same issues). `.sks` files are generated as binary files. If two people work on the same file at the same time, you are pretty much out of luck if you have to resolve conflicts. Unless you convert them to XML. Because, under the hood, `.sks` files are just binary property list files with another name.
+The Scene Editor is very useful to visualize your scenes. However, don't try to work in teams on complex scenes (or on particle systems, whose files share the same issues). `.sks` files are generated as binary files. If two people work on the same file at the same time, you are pretty much out of luck if you have to resolve conflicts. Unless you convert them to XML. Because, under the hood, `.sks` files are just binary property list files with another name.
 
 With this simple command-line, you can convert them to XML:
 

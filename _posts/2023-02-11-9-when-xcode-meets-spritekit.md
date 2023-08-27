@@ -2,6 +2,7 @@
 layout: post
 title: "When Xcode Meets SpriteKit"
 date: 2023-02-11 12:00:00 +0100
+updated: 2023-08-27 12:00:00 +0100
 image: /assets/posts/9/xcode-spritekit.png
 excerpt: >
   I expect most macOS, iOS, or tvOS developers to use Xcode as their main development environment, especially if they're working with Swift. You can use other IDEs with other languages, like Xamarin or Unity for example, but that's not the "Apple way". This obviously also applies to anyone working with SpriteKit. In this post, I will detail what's good or wrong with Xcode support for SpriteKit.

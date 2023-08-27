@@ -254,7 +254,9 @@ footer {
       }
     }
 
-    p, ul, ol {
+    p,
+    ul,
+    ol {
       code {
         font-family: "Source Code Pro", monospace;
         color: orange;
@@ -293,6 +295,10 @@ footer {
       font-style: italic;
       font-size: 14px;
       text-align: center;
+
+      small {
+        opacity: 50%;
+      }
     }
 
     .footnotes {
@@ -306,7 +312,8 @@ footer {
       text-decoration: none;
     }
 
-    ol, ul {
+    ol,
+    ul {
       li {
         margin-bottom: 10px;
       }

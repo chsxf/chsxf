@@ -3,6 +3,8 @@ layout: post
 title: "Managing SKView Render Resolution Through Content Scaling"
 date: 2022-10-22 12:00:00 +0100
 image: /assets/posts/6/higher-lower-render-resolution.png
+tags:
+  - SpriteKit
 description: >
   While working on the authoring tools for The Untitled Project, I realized that running the game at native Retina resolution was not possible on low-end GPUs. I needed a way to render the content of my SKView at a lower resolution. However, the documentation does not provide directions on this subject. In this post, I explain how I finally get to the solution and how to implement it.
 ---

@@ -3,6 +3,10 @@ layout: post
 title: "The Untitled Project"
 date: 2022-01-15 12:00:00 +0100
 image: /assets/posts/2/sktestisomap.png
+tags:
+  - SKTetris
+  - SpriteKit
+  - The Untitled Project
 description: >
   In 2021, I decided to learn Swift, SpriteKit and many of the other gaming-related Apple frameworks. That's how SKTetris was born. And now, I want to do something bigger. But I don't know what. Hence why, in this post, I call it The Untitled Project.
 ---

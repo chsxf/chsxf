@@ -53,6 +53,15 @@
     }
   }
 
+  .layout-tags {
+    h1 {
+      &:first-of-type {
+        font-size: 36px;
+        line-height: 40px;
+      }
+    }
+  }
+
   .layout-post {
     section {
       width: 720px;

@@ -76,6 +76,27 @@
     color: white;
   }
 
+  .post-tags {
+    a {
+      background-color: white;
+    }
+
+    a:hover {
+      background-color: orangered;
+      color: black;
+    }
+  }
+
+  .layout-tags {
+    h1 {
+      color: white;
+    }
+
+    ul {
+      color: lightgray;
+    }
+  }
+
   .layout-post {
     section {
       .post-date {

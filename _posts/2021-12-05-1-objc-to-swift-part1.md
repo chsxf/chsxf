@@ -2,7 +2,11 @@
 layout: post
 title: "Objective-C to Swift - The Journey - Part 1"
 date: 2021-12-05 12:00:00 +0100
-image: https://nihongonokana.com/assets/img/fr/home_background.png
+image: /assets/posts/1/nihongo-no-kana.png
+tags:
+  - Swift
+  - Objective-C
+  - Nihongo no Kana
 description: >
   Nihongo no Kana, my app designed to help beginners learn the basic japanese alphabets (hiragana and katakana), was initially released in May 2012. It was the days of the iPhone 4S, of the very first iPad Retina and of iOS 5. Fast forward to 2021. Many things have changed. Now is the time to move to Swift and SwiftUI. In this post, I discuss the challenges I faced and how I'm intending to proceed with the migration.
 ---

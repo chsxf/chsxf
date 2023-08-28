@@ -3,6 +3,9 @@ layout: post
 title: "Why I Quit Using SwiftUI"
 date: 2022-08-28 12:00:00 +0100
 image: /assets/posts/5/map-editor-with-inspector.png
+tags:
+  - UIKit
+  - SwiftUI
 description: >
   SwiftUI is currently the new trend in the Apple development world. And I wanted to give it a try. I did. However, in this post, I explain why I went back to AppKit for The Untitled Project's authoring tools.
 ---

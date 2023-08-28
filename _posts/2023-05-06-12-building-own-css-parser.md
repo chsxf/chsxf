@@ -3,6 +3,9 @@ layout: post
 title: "Building My Own CSS Parser"
 image: /assets/posts/12/Cascading_Style_Sheets.jpg
 date: 2023-05-06 12:00:00 +0100
+tags:
+  - CiderKit
+  - CiderCSSKit
 description: >
   I've started working on the next chapter of CiderKit: User Interfaces. And that's a big one! In this post I explain why I ended up building my own CSS parser in order to apply styles to my UI elements.
 ---

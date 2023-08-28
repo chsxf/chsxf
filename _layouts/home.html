@@ -10,9 +10,10 @@ layout: default
         <div class="post">
             <div class="post-time"><strong>{{ post.date | date: "%d" }}<br />{{ post.date | date: "%b" }}</strong><br />{{ post.date | date: "%Y" }}</div>
             <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-            {% if post.image %}
-            <div class="post-image"><img src="{{ post.image }}" alt="{{ post.title }}" /></div>
-            {% endif %}
+            <div class="post-image">
+                <img src="{{ post.image }}" alt="{{ post.title }}" />
+                {% include sorted_tags.html tags=post.tags %}
+            </div>
             <div class="post-excerpt">{{ post.description | default: post.excerpt }}</div>
             <div class="post-more-link">&rarr; <a href="{{ post.url }}">Read More</a></div>
         </div>

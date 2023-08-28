@@ -12,6 +12,7 @@ layout: default
     <br /><small>Last Update: {{ page.last_modified_at | date: "%d %B %Y" }}</small>
     {% endif %}
     </div>
+    {% include sorted_tags.html tags=page.tags %}
     {{content}}
   </section>
 </div>

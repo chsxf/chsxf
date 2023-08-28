@@ -113,6 +113,7 @@ a {
   .pagination {
     padding: 10px 0;
     text-align: center;
+    min-height: 20px;
 
     .pagination-previous,
     .pagination-next-post {
@@ -187,11 +188,21 @@ a {
         }
       }
 
-      .post-image img {
-        display: block;
-        background: transparent;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
+      .post-image {
+        position: relative;
+
+        .post-tags {
+          position: absolute;
+          right: 10px;
+          top: 10px;
+        }
+
+        img {
+          display: block;
+          background: transparent;
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+        }
       }
 
       .post-excerpt,
@@ -243,6 +254,37 @@ footer {
   padding: 10px 0;
 }
 
+.post-tags {
+  a {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 1px 7px;
+    margin: 4px 1px;
+  }
+}
+
+.layout-tags {
+  h1 {
+    &:first-of-type {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+
+  .post-tags {
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  ul {
+    li {
+      margin-bottom: 10px;
+    }
+  }
+}
+
 .layout-post {
   section {
     img {
@@ -257,6 +299,10 @@ footer {
     p,
     ul,
     ol {
+      a:hover code {
+        color: orangered;
+      }
+
       code {
         font-family: "Source Code Pro", monospace;
         color: orange;
@@ -299,6 +345,11 @@ footer {
       small {
         opacity: 50%;
       }
+    }
+
+    .post-tags {
+      text-align: center;
+      margin: 10px auto;
     }
 
     .footnotes {

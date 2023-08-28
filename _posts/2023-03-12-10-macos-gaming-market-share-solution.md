@@ -3,6 +3,9 @@ layout: post
 title: "A macOS Gaming Market Share Solution"
 date: 2023-03-12 12:00:00 +0100
 image: /assets/posts/10/mac-gaming.png
+tags:
+  - macOS
+  - Gaming
 description: >
   In its early days, Apple (and subsequently the Mac) was a big player in the gaming market. But as time went by, the global Apple market share in the personal computer segment plumeted. And so went its relevance with gaming. In this post, I discuss the issues Apple is facing in the desktop gaming market and potential solutions that in my humble opinion could improve the situation.
 ---

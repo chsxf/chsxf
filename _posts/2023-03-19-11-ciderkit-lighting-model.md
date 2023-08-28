@@ -3,6 +3,9 @@ layout: post
 title: "CiderKit's Custom Lighting Model"
 date: 2023-03-19 12:00:00 +0100
 image: /assets/posts/11/lighting-model.png
+tags:
+  - CiderKit
+  - SpriteKit
 description: >
   SpriteKit is a 2D game engine, but its limitations make difficult working with specific designs, like pseudo 3D. Unfortunately, CiderKit, the SpriteKit-based game engine I'm working on, calls for more than what's available out of the box. In this post, I will discuss how I've implemented my own custom deferred lighting model within the constraints of SpriteKit.
 ---

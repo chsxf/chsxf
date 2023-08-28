@@ -1,0 +1,11 @@
+<div class="post-tags">
+    {% assign sorted_tags_str = "" %}
+    {% for tag in include.tags %}
+        {% assign sorted_tags_str = sorted_tags_str | append: "," | append: tag %}
+    {% endfor %}
+    {% assign sorted_tags_str = sorted_tags_str | remove_first: "," %}
+    {% assign sorted_tags = sorted_tags_str | split: "," | sort_natural %}
+    {% for tag in sorted_tags %}
+    <a href="/posts-by-tag#{{ tag }}">{{ tag }}</a>
+    {% endfor %} 
+  </div>

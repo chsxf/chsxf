@@ -62,6 +62,17 @@
     background-color: lightgray;
   }
 
+  .post-tags {
+    a {
+      background-color: #404040;
+      color: white;
+    }
+
+    a:hover {
+      background-color: orangered;
+    }
+  }
+
   .layout-post {
     section {
       .post-date {

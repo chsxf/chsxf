@@ -4,6 +4,9 @@ title: "Working With Fonts in SpriteKit"
 image: /assets/posts/13/fonts-spritekit.png
 date: 2023-08-27 12:00:00 +0100
 last_modified_at: 2023-08-28 12:00:00 +0100
+tags:
+  - SpriteKit
+  - Fonts
 description: >
   Documentation for SpriteKit is sparse. Many parts of the framework are pretty obscure, with pretty much no information available out there. That’s the case for fonts. In this post, I explain how to work programmatically with fonts in SpriteKit.
 ---

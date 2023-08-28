@@ -3,6 +3,7 @@ layout: post
 title: "Working With Fonts in SpriteKit"
 image: /assets/posts/13/fonts-spritekit.png
 date: 2023-08-27 12:00:00 +0100
+updated: 2023-08-28 12:00:00 +0100
 excerpt: >
   Documentation for SpriteKit is sparse. Many parts of the framework are pretty obscure, with pretty much no information available out there. That’s the case for fonts. In this post, I explain how to work programmatically with fonts in SpriteKit.
 ---
@@ -38,7 +39,17 @@ _Font Book app showing a font variant name_
 
 However, in my case, [CiderKit](https://github.com/chsxf/CiderKit) is an engine. It should be able to handle any font. If you're facing a similar issue, that means you have to query the system's font management thanks to either [`NSFontManager`](https://developer.apple.com/documentation/appkit/nsfontmanager/) on macOS or [`UIFontDescriptor`](https://developer.apple.com/documentation/uikit/uifontdescriptor/) anywhere else.
 
-Below is a Swift script you can use to get the right font variant name for SpriteKit. It is currently limited to regular, italic, bold, or bold italic variants, but should be pretty easy to extend if you need to.
+At the end of this post, there is a Swift script you can use to get the right font variant name for SpriteKit.
+
+You can use it like this:
+
+```swift
+let myLabel = SKLabelNode(text: "My text string")
+// ...
+myLabel.fontName = FontHelpers.fontName(with: "Times New Roman", italic: true, bold: false)
+```
+
+This script is currently limited to regular, italic, bold, or bold italic variants, but should be pretty easy to extend if you need to.
 
 ```swift
 #if os(macOS)

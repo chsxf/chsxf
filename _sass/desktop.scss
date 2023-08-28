@@ -1,4 +1,19 @@
 @media only screen and (min-width: 960px) {
+  #top-bar {
+    ul.links {
+      margin-top: 10px;
+    }
+
+    .tagline {
+      font-size: 12px;
+      margin-top: 3px;
+    }
+  }
+
+  #content-wrapper {
+    padding-top: 70px;
+  }
+
   .center-column {
     width: 960px;
   }

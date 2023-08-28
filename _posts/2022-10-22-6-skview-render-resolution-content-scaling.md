@@ -3,8 +3,8 @@ layout: post
 title: "Managing SKView Render Resolution Through Content Scaling"
 date: 2022-10-22 12:00:00 +0100
 image: /assets/posts/6/higher-lower-render-resolution.png
-excerpt: >
-    While working on the authoring tools for The Untitled Project, I realized that running the game at native Retina resolution was not possible on low-end GPUs. I needed a way to render the content of my SKView at a lower resolution. However, the documentation does not provide directions on this subject. In this post, I explain how I finally get to the solution and how to implement it.
+description: >
+  While working on the authoring tools for The Untitled Project, I realized that running the game at native Retina resolution was not possible on low-end GPUs. I needed a way to render the content of my SKView at a lower resolution. However, the documentation does not provide directions on this subject. In this post, I explain how I finally get to the solution and how to implement it.
 ---
 
 [SpriteKit](https://developer.apple.com/spritekit/), the Apple proprietary framework for 2D graphics rendering, is a wonderful tool. It is very efficient and makes it easy to create 2D animations or games for Apple devices. However, not being cross-platform mechanically reduces the size of the developer community, unless it is a [considered choice](/2022/03/19/3-the-untitled-project-why-apple-only.html).
@@ -23,7 +23,7 @@ Fortunately, last week, Apple held the **Ask Apple** developer event through [Sl
 
 ![Ask Apple](/assets/posts/6/ask-apple.png)
 
-I went on with my question about my very specific use case: *How to render a SpriteKit [SKView](https://developer.apple.com/documentation/spritekit/skview) at a lower resolution?* An Apple engineer quickly responded to me with the solution.
+I went on with my question about my very specific use case: _How to render a SpriteKit [SKView](https://developer.apple.com/documentation/spritekit/skview) at a lower resolution?_ An Apple engineer quickly responded to me with the solution.
 
 However, why would you want to do that in the first place? As I stated earlier, to improve overall performance on lower-end GPUs. But performance comes in various ways. For pixel art games, if you don't actually need the full native resolution of your device, you could want to render at a lower resolution to avoid thermal throttling or reduce power consumption. Depending on the type of the game, it could be a great life improvement for the players.
 

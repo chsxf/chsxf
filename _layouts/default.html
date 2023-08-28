@@ -26,6 +26,8 @@
             <li class="social-link"><a href="{{ entry.url }}" target="_blank" rel="me"><img src="{{ entry.img | prepend: "assets/img/" | relative_url }}" title="{{ entry.name }}" /><span class="link-name">{{ entry.name }}</span></a></li>
           {% endfor %}
         </ul>
+
+        <div class="tagline">{{ site.tagline }}</div>
       </div>
     </div>
 

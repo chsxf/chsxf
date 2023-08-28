@@ -3,8 +3,8 @@ layout: post
 title: "The Untitled Project - Why Apple Only?"
 date: 2022-03-19 12:00:00 +0100
 image: /assets/posts/3/apple-ecosystem.png
-excerpt: >
-    In my previous post, I introduced The Untitled Project as a project targeting only Apple platforms. This may sound strange. Obviously, using only Apple proprietary frameworks basically prevents you from releasing your apps and games anywhere else easily. Why would anyone make that choice in the first place? In this post, I'll talk about my reasons, other than personal preference.
+description: >
+  In my previous post, I introduced The Untitled Project as a project targeting only Apple platforms. This may sound strange. Obviously, using only Apple proprietary frameworks basically prevents you from releasing your apps and games anywhere else easily. Why would anyone make that choice in the first place? In this post, I'll talk about my reasons, other than personal preference.
 ---
 
 In my [previous post](/2022/01/15/2-the-untitled-project.html), I introduced **The Untitled Project** as a project targeting only Apple platforms.
@@ -14,7 +14,7 @@ This may sound strange. Obviously, using only Apple proprietary frameworks basic
 # The Platforms
 
 ![The Apple Ecosystem](/assets/posts/3/apple-ecosystem.png)
-*The Apple Ecosystem*
+_The Apple Ecosystem_
 
 If you're not familiar with the Apple ecosystem, three major platforms are available to you as an app developer: iOS (+ iPadOS), macOS and tvOS. There's a fourth one, watchOS, dedicated to the Apple Watch, but the specific form factor and the applicable set of restrictions make it very difficult to design apps the same way.
 
@@ -52,7 +52,7 @@ Both of these aspects are helping bringing your apps and games to low-end hardwa
 
 # The Hardware
 
-Sure, Macs are not gaming machines per say. For a long time, only high-end Macs have been equipped with proper discrete GPUs, leaving only suffering Intel integrated GPUs to the rest of the crowd. That doesn't mean those low-end machines can't run *some* games.
+Sure, Macs are not gaming machines per say. For a long time, only high-end Macs have been equipped with proper discrete GPUs, leaving only suffering Intel integrated GPUs to the rest of the crowd. That doesn't mean those low-end machines can't run _some_ games.
 
 Sure, playing on a touch device is nothing compared to using a game controller. And even so, there are a lot of mobile players out there. The vast majority is not using a game controller, and if it was ever needed, iOS now offers a [built-in virtual controller](https://developer.apple.com/documentation/gamecontroller/gcvirtualcontroller) game developers can implement in their games to lower the entry barrier.
 

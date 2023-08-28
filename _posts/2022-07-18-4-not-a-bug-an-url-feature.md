@@ -4,8 +4,8 @@ title: "It's Not a Bug. It's a URL Feature"
 date: 2022-07-18 12:00:00 +0100
 image: /assets/posts/4/foundation-framework.png
 permalink: /2022/07/18/4-not-a-bug-an-url-feature.html
-excerpt: >
-    As always, the bug was between the chair and the keyboard. In this post, I discuss the weird bug I encountered in my code with the counter-intuitive URL struct initializers of the Foundation framework.
+description: >
+  As always, the bug was between the chair and the keyboard. In this post, I discuss the weird bug I encountered in my code with the counter-intuitive URL struct initializers of the Foundation framework.
 ---
 
 Let's take a look at this snippet of Swift code:

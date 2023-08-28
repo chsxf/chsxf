@@ -13,7 +13,7 @@ layout: default
             {% if post.image %}
             <div class="post-image"><img src="{{ post.image }}" alt="{{ post.title }}" /></div>
             {% endif %}
-            <div class="post-excerpt">{{ post.excerpt }}</div>   
+            <div class="post-excerpt">{{ post.description | default: post.excerpt }}</div>
             <div class="post-more-link">&rarr; <a href="{{ post.url }}">Read More</a></div>
         </div>
         {% endfor %}
@@ -24,7 +24,7 @@ layout: default
 
         <p><img src="{{site.logo | relative_url}}" alt="Logo" class="header-logo" /></p>
         
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p>{{ site.intro | default: site.github.project_tagline }}</p>
         
         {% if site.github.is_user_page %}
             {% if site.github.show_user_stats %}

@@ -8,8 +8,8 @@ layout: default
   <section>
     <h1>{{ page.title }}</h1>
     <div class="post-date"><strong>{{ page.date | date: "%d %B" }}</strong> {{ page.date | date: "%Y" }}
-    {% if page.updated %}
-    <br /><small>Last Update: {{ page.updated | date: "%d %B %Y" }}</small>
+    {% if page.last_modified_at %}
+    <br /><small>Last Update: {{ page.last_modified_at | date: "%d %B %Y" }}</small>
     {% endif %}
     </div>
     {{content}}

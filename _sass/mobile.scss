@@ -1,6 +1,11 @@
 @media only screen and (max-width: 960px) {
   #top-bar {
+    height: 50px;
     width: 100vw;
+
+    .tagline {
+      display: none;
+    }
   }
 
   .center-column {

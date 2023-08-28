@@ -20,8 +20,8 @@
 
 title: chsxf.dev
 email: chsxf.pro@gmail.com
-tagline: Discover everything about my personal works as a game dev, mostly on Apple platforms.
-description: >- # this means to ignore newlines until "baseurl:"
+tagline: Discover everything about my personal works as a game dev, mostly on Apple platforms
+intro: >- # this means to ignore newlines until "baseurl:"
   Senior Unity Developer at <a href="https://altshift.fr">Alt Shift</a> by day, hobbyist game dev the rest of the time, this devlog is all about my personal works.
   <br />
   Apple user for more than 15 years. Expect most projects here to be Apple-compatible only.
@@ -46,9 +46,9 @@ socials:
   - name: Mastodon
     url: https://mastodon.gamedev.place/@chsxf
     img: mastodon.png
-  - name: Twitter
-    url: https://twitter.com/chsxf
-    img: twitter.png
+  - name: X
+    url: https://x.com/chsxf
+    img: x.png
   - name: Medium
     url: https://chsxf.medium.com
     img: medium.png
@@ -67,6 +67,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-feed
+  - jekyll-sitemap
 
 github:
   is_project_page: false

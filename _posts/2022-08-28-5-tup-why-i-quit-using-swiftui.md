@@ -3,14 +3,14 @@ layout: post
 title: "Why I Quit Using SwiftUI"
 date: 2022-08-28 12:00:00 +0100
 image: /assets/posts/5/map-editor-with-inspector.png
-excerpt: >
-    SwiftUI is currently the new trend in the Apple development world. And I wanted to give it a try. I did. However, in this post, I explain why I went back to AppKit for The Untitled Project's authoring tools.
+description: >
+  SwiftUI is currently the new trend in the Apple development world. And I wanted to give it a try. I did. However, in this post, I explain why I went back to AppKit for The Untitled Project's authoring tools.
 ---
 
 As [CiderKit](https://github.com/chsxf/CiderKit-Test_Project), the authoring tools for **The Untitled Project**, starts taking shape and becomes more complex, I needed to create windows and UI elements for various purposes. My journey started with the Project Selector. As this is also a learning process, I chose to use [SwiftUI](https://developer.apple.com/xcode/swiftui/) and try to understand its inner workings.
 
 ![The Project Selector](/assets/posts/5/project-selector.png)
-*CiderKit's Project Selector*
+_CiderKit's Project Selector_
 
 Except for the unconventional environment and state aspects of SwiftUI, the work on the Project Selector went well and I completed it very pleased with SwiftUI. I even created my own modifier for showing alerts more easily.
 
@@ -46,14 +46,14 @@ extension ObservableObject {
 class DelayedObservableObject<Object>: ObservableObject where Object: ObservableObject {
     private var original: Object
     private var subscription: AnyCancellable?
-    
+
     fileprivate init(object: Object, delay: TimeInterval) {
         self.original = object
         subscription = object.objectWillChange
             .throttle(for: RunLoop.SchedulerTimeType.Stride(delay), scheduler: RunLoop.main, latest: true)
             .sink { [weak self] _ in self?.objectWillChange.send() }
     }
-    
+
     subscript<Subject>(dynamicMember keyPath: WritableKeyPath<Object, Subject>) -> Subject {
         get { original[keyPath: keyPath] }
         set { original[keyPath: keyPath] = newValue }
@@ -70,7 +70,7 @@ I however considered this use case very specific, maybe not well suited for Swif
 My first inspectors implemented, I started working on another subject: the Sprite Asset Editor. This tool allows me to compose complex assets with multiple sprites, and eventually animate them. This is displayed as a sheet of the main window, and I wanted once again to use SwiftUI and continue on my learning journey. Nothing is perfect on the first try.
 
 ![Sprite Asset Editor](/assets/posts/5/sprite-asset-editor.png)
-*CiderKit's Sprite Asset Editor*
+_CiderKit's Sprite Asset Editor_
 
 As you can see on the above figure, this is a complex window with a lot of different contexts (the Sprite Asset Database list at the top, the content of a specific Sprite Asset Database on the left, and everything else is basically the editor for the selected Sprite Asset). I would create a view for each context, and using them as a "child" of the other, passing only the data I needed to a specific view.
 

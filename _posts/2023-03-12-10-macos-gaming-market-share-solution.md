@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A macOS Gaming Market Share Solution"
-date: 2023-03-12 12:00:00 +0100
+date: 2023-03-12
 image: /assets/posts/10/mac-gaming.png
 tags:
   - macOS

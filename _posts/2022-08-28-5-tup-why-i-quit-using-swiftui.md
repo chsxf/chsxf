@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why I Quit Using SwiftUI"
-date: 2022-08-28 12:00:00 +0100
+date: 2022-08-28
 image: /assets/posts/5/map-editor-with-inspector.png
 tags:
   - UIKit

@@ -2,7 +2,7 @@
 layout: post
 title: "PlayDate with Visual Studio Code"
 image: /assets/posts/14/playdate-w-vscode.png
-date: 2024-03-11 12:00:00 +0100
+date: 2024-03-11
 tags:
   - PlayDate
 description: >

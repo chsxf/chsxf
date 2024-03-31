@@ -2,8 +2,8 @@
 layout: post
 title: "Working With Fonts in SpriteKit"
 image: /assets/posts/13/fonts-spritekit.png
-date: 2023-08-27 12:00:00 +0100
-last_modified_at: 2023-08-28 12:00:00 +0100
+date: 2023-08-27
+last_modified_at: 2023-08-28
 tags:
   - SpriteKit
   - Fonts

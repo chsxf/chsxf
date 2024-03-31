@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Untitled Project"
-date: 2022-01-15 12:00:00 +0100
+date: 2022-01-15
 image: /assets/posts/2/sktestisomap.png
 tags:
   - SKTetris

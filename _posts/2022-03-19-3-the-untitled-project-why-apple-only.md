@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Untitled Project - Why Apple Only?"
-date: 2022-03-19 12:00:00 +0100
+date: 2022-03-19
 image: /assets/posts/3/apple-ecosystem.png
 tags:
   - The Untitled Project

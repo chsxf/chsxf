@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CiderKit's Custom Lighting Model"
-date: 2023-03-19 12:00:00 +0100
+date: 2023-03-19
 image: /assets/posts/11/lighting-model.png
 tags:
   - CiderKit

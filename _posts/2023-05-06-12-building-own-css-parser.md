@@ -2,7 +2,7 @@
 layout: post
 title: "Building My Own CSS Parser"
 image: /assets/posts/12/Cascading_Style_Sheets.jpg
-date: 2023-05-06 12:00:00 +0100
+date: 2023-05-06
 tags:
   - CiderKit
   - CiderCSSKit

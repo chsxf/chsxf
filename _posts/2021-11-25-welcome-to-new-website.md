@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to My New Website!"
-date: 2021-11-25 06:30:42 +0100
+date: 2021-11-25
 image: /assets/posts/0/website-launch.png
 tags:
   - Blog

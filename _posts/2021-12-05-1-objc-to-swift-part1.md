@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Objective-C to Swift - The Journey - Part 1"
-date: 2021-12-05 12:00:00 +0100
+date: 2021-12-05
 image: /assets/posts/1/nihongo-no-kana.png
 tags:
   - Swift

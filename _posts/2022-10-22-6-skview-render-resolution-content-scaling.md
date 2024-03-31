@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Managing SKView Render Resolution Through Content Scaling"
-date: 2022-10-22 12:00:00 +0100
+date: 2022-10-22
 image: /assets/posts/6/higher-lower-render-resolution.png
 tags:
   - SpriteKit

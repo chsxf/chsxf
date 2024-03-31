@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "When Xcode Meets SpriteKit"
-date: 2023-02-11 12:00:00 +0100
-last_modified_at: 2023-08-27 12:00:00 +0100
+date: 2023-02-11
+last_modified_at: 2023-08-27
 image: /assets/posts/9/xcode-spritekit.png
 tags:
   - Xcode

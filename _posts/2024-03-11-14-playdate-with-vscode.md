@@ -3,13 +3,16 @@ layout: post
 title: "PlayDate with Visual Studio Code"
 image: /assets/posts/14/playdate-w-vscode.png
 date: 2024-03-11
+last_modified_at: 2024-07-12
 tags:
   - PlayDate
 description: >
   Spritekit isn't going away, but I wanted to see how difficult it would be to developer games for the PlayDate in C. Turns out, not many resources exist to do that with Visual Studio Code. In this post, I explain how to set up Visual Studio Code to build, run, and debug for the PlayDate Simulator.
 ---
 
-![Fonts with SpriteKit](/assets/posts/14/playdate-w-vscode.png)
+![PlayData console with Visual Studio Code logo](/assets/posts/14/playdate-w-vscode.png)
+
+**July 2024 Update: Since the redaction of this post, Apple has released a [sample project](https://github.com/apple/swift-playdate-examples) that allows building games for the PlayDate with Swift. After a big of exploration, it turned out it was working very well. Going forward, I will use Swift as my language of choice for the PlayDate with [PlayDateKit](https://github.com/finnvoor/PlaydateKit). Therefore, you should not expect any further progress with this tutorial.**
 
 For once, I decided to explore a different platform. SpriteKit isn't going away, but for some things in my regular job, I wanted to see how difficult it would be to develop games for the [PlayDate](https://play.date/) in C. In case you're wondering now, no, Alt Shift has no plan to release a PlayDate game any time soon, but we like to explore different things from time to time.
 

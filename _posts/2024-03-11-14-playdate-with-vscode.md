@@ -12,7 +12,7 @@ description: >
 
 ![PlayData console with Visual Studio Code logo](/assets/posts/14/playdate-w-vscode.png)
 
-**July 2024 Update: Since the redaction of this post, Apple has released a [sample project](https://github.com/apple/swift-playdate-examples) that allows building games for the PlayDate with Swift. After a big of exploration, it turned out it was working very well. Going forward, I will use Swift as my language of choice for the PlayDate with [PlayDateKit](https://github.com/finnvoor/PlaydateKit). Therefore, you should not expect any further progress with this tutorial.**
+**July 2024 Update: Since the redaction of this post, Apple has released a [sample project](https://github.com/apple/swift-playdate-examples) that allows building games for the PlayDate with Swift. After a bit of exploration, it turned out it was working very well. Going forward, I will use Swift as my language of choice for the PlayDate with [PlayDateKit](https://github.com/finnvoor/PlaydateKit). Therefore, you should not expect any further progress with this tutorial.**
 
 For once, I decided to explore a different platform. SpriteKit isn't going away, but for some things in my regular job, I wanted to see how difficult it would be to develop games for the [PlayDate](https://play.date/) in C. In case you're wondering now, no, Alt Shift has no plan to release a PlayDate game any time soon, but we like to explore different things from time to time.
 

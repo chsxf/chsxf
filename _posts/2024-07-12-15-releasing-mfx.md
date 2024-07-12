@@ -2,7 +2,7 @@
 layout: post
 title: "Releasing MFX"
 image: /assets/posts/15/releasing-mfx.png
-date: 2024-07-13
+date: 2024-07-12
 tags:
   - PHP
   - MFX

@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 
 🐘 I'm also an experienced PHP developer _(and probably a little overprotective of our beloved language)_
 
-📫 You can also reach me on [Mastodon](https://mastodon.gamedev.place/@chsxf), [Twitter](https://twitter.com/chsxf), [Medium](https://chsxf.medium.com) or [LinkedIn](https://www.linkedin.com/in/christophesauveur/)
+📫 You can also reach me on [BlueSky](https://bsky.app/profile/chsxf.dev), [Mastodon](https://mastodon.gamedev.place/@chsxf), [Medium](https://chsxf.medium.com) or [LinkedIn](https://www.linkedin.com/in/christophesauveur/)
 
 🔖 There's also my [personal devlog](https://chsxf.dev)
 

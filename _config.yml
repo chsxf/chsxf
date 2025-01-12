@@ -40,15 +40,18 @@ socials:
   - name: GitHub
     url: https://github.com/chsxf
     img: github.png
-  - name: itch.io
-    url: https://chsxf.itch.io/
-    img: itch.png
+  - name: BlueSky
+    url: https://bsky.app/profile/chsxf.dev
+    img: bluesky.png
   - name: Mastodon
     url: https://mastodon.gamedev.place/@chsxf
     img: mastodon.png
-  - name: X
-    url: https://x.com/chsxf
-    img: x.png
+  - name: itch.io
+    url: https://chsxf.itch.io/
+    img: itch.png
+#  - name: X
+#    url: https://x.com/chsxf
+#    img: x.png
   - name: Medium
     url: https://chsxf.medium.com
     img: medium.png

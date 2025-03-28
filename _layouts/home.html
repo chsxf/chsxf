@@ -8,7 +8,8 @@ layout: default
     <section class="posts">
         {% for post in paginator.posts %}
         <div class="post">
-            <div class="post-time"><strong>{{ post.date | date: "%d" }}<br />{{ post.date | date: "%b" }}</strong><br />{{ post.date | date: "%Y" }}</div>
+            <div class="post-time"><strong>{{ post.date | date: "%d" }}<br />{{ post.date | date: "%b"
+                    }}</strong><br />{{ post.date | date: "%Y" }}</div>
             <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
             <div class="post-image">
                 <img src="{{ post.image }}" alt="{{ post.title }}" />
@@ -24,18 +25,22 @@ layout: default
         <h2>About Me</h2>
 
         <p><img src="{{site.logo | relative_url}}" alt="Logo" class="header-logo" /></p>
-        
+
         <p>{{ site.intro | default: site.github.project_tagline }}</p>
-        
+
         {% if site.github.is_user_page %}
-            {% if site.github.show_user_stats %}
-            <hr />
-            <div class="github-stats"><a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats-beige-gamma-47.vercel.app/api?title_color=000000&icon_color=000000&text_bold=false&bg_color=00000000&hide_border=true&theme=github_light&custom_title=GitHub%20Stats&hide_rank=true&disable_animations=true&show_icons=true&username={{ site.github.owner_username }}" /></a></div>
-            {% endif %}
-            {% if site.github.show_langs_stats %}
-            <hr />
-            <div class="github-stats"><a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats-beige-gamma-47.vercel.app/api/top-langs/?title_color=000000&bg_color=00000000&card_width=260&hide_border=true&theme=github_light&layout=compact&exclude_repo=unity-built-in-shaders&langs_count=8&username={{ site.github.owner_username }}" /></a></div>
-            {% endif %}
+        {% if site.github.show_user_stats %}
+        <hr />
+        <div class="github-stats"><a href="https://github.com/anuraghazra/github-readme-stats"><img
+                    src="https://github-readme-stats-beige-gamma-47.vercel.app/api?title_color=000000&icon_color=000000&text_bold=false&bg_color=00000000&hide_border=true&theme=github_light&custom_title=GitHub%20Stats&hide_rank=true&disable_animations=true&show_icons=true&username={{ site.github.owner_username }}" /></a>
+        </div>
+        {% endif %}
+        {% if site.github.show_langs_stats %}
+        <hr />
+        <div class="github-stats"><a href="https://github.com/anuraghazra/github-readme-stats"><img
+                    src="https://github-readme-stats-beige-gamma-47.vercel.app/api/top-langs/?title_color=000000&bg_color=00000000&card_width=260&hide_border=true&theme=github_light&layout=compact&exclude_repo=unity-built-in-shaders,vgtunes-website&langs_count=8&username={{ site.github.owner_username }}" /></a>
+        </div>
+        {% endif %}
         {% endif %}
     </section>
 </div>

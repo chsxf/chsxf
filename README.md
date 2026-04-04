@@ -15,7 +15,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-🔭 Currently working as a Lead Developer Unity C# on [Crying Suns](https://cryingsuns.com) and some unannounced projects at [Alt Shift](https://altshift.fr)
+🔭 Currently working as a Lead Developer Unity C# on [Battlestar Galactica: Scattered Hopes](https://battlestargalacticascatteredhopes.com/) and [Crying Suns](https://cryingsuns.com) at [Alt Shift](https://altshift.fr)
+
+🎧 Creator of [VGTunes](https://vgtunes.chsxf.dev)
 
 🍏 I've been an Apple user for a long time and I am exploring the many frameworks you can find in the Apple ecosystem.
 

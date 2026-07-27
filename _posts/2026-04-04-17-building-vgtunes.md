@@ -37,7 +37,7 @@ On the other hand, you have social websites like [Songlink/Odesli](https://odesl
 
 [VGTunes] is basically a mix of these. It's a database, expected to be as complete as possible, but with the design philosophy of the social websites.
 
-![Moss II VGTunes Link Example](/assets//posts/17/link-example.jpg)
+![Moss II VGTunes Link Example](/assets/posts/17/link-example.jpg)
 
 # Starting Small
 

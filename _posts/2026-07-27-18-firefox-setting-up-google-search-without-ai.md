@@ -11,7 +11,7 @@ description: >
   Now that Google Search includes AI summaries in the EU, I've seen many people using adblockers to remove the AI slop. In my humble opinion, this is not a good enough solution and does not disable the feature and the associated resource consumption. In this post, I will explain how to set up Firefox to continue using Google without any AI summary.
 ---
 
-For the past few days, now that Google Search includes AI summaries in the EU, I've seen many people using UBlock Origin or extensions with similar capabilities to remove the AI slop at the top of the search results. However, I think this is not a good enough solution as it only cleans the output without actually disabling the feature that runs in the background. The energy will still be wasted, and the disturbance only will be put under the rug.
+For the past few days, now that Google Search includes AI summaries in the EU, I've seen many people using UBlock Origin or extensions with similar capabilities to remove the AI slop at the top of the search results. However, I think this is not a good enough solution as it only cleans the output without actually disabling the feature that runs in the background. The energy will still be wasted, and the disturbance only will be put swept the rug.
 
 There are better solutions for that, even if not perfect. This post will explain how to configure Firefox to use Google Search without AI. The same method should be applicable to any major browser, even though I've not tried it myself.
 
@@ -35,11 +35,11 @@ First, add a new entry:
 
 This will open a popup requesting the various parameters for the new search engine entry. Here are the various values to enter. You may have to click on the "Advanced" button to reach the last two.
 
-> _Some preliminary note on the "Keyword" parameter:<br />This parameter allows you to call for a specific search engine in the address bar whenever it is needed. For example, I mostly use [Lilo](https://www.lilo.org/) instead of Google, but sometimes Google is just better. So I just type `@g` in the addresse bar and Firefox automatically switches to Google (as this is my only other search engine starting with the G letter). Unfortunately, you can't have mulitple search engines configured with the same keyword (and of course the built-in Google entry has the `@google` shortcut)._
+> _Some preliminary note on the "Keyword" parameter:<br />This parameter allows you to call for a specific search engine in the address bar whenever it is needed. For example, I mostly use [Lilo](https://www.lilo.org/) instead of Google, but sometimes Google is just better. So I just type `@g` in the address bar and Firefox automatically switches to Google (as this is my only other search engine starting with the G letter). Unfortunately, you can't have multiple search engines configured with the same keyword (and of course the built-in Google entry has the `@google` shortcut)._
 
 ```
 Search engine name:
-Google without IA
+Google without AI
 
 URL with %s in place of search term:
 https://www.google.com/search?udm=web&q=%s
@@ -64,4 +64,4 @@ If you are using Google as your default search engine, you should then use the v
 
 # Conclusion
 
-You are now good to go. You should be able to use Google without any AI summary for the foreseable future. Let's hope it will last long.
+You are now good to go. You should be able to use Google without any AI summary for the foreseeable future. Let's hope it will last long.

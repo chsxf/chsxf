@@ -2,6 +2,8 @@
 layout: post
 title: "Writing Swift Macros"
 image: /assets/posts/19/swift-macros.jpg
+date: 2026-09-14
+last_modified_at: 2026-10-05
 tags:
   - Swift
   - Swift Macros
@@ -22,11 +24,11 @@ However, even though I was able to publish [CiderKit.Macros](https://github.com/
 
 # The Promised Land
 
-I've been struggling for almost two years with migrating CiderKit's codebase to Swift 6 and supporting Strict Concurrency. And recently, I encountered an issue with the Sendable structs I use to convey data back and forth between the editor and game engine parts of the project.
+I've been struggling for almost two years with migrating CiderKit's codebase to Swift 6 and supporting Strict Concurrency. And recently, I encountered an issue with the Sendable types I use to convey data back and forth between the editor and game engine parts of the project.
 
-As you may know, Sendable structs can only contain `let` properties, whose values are constant. However, I needed a way to produce modified versions of the data whenever a change was made on a map in the editor. And the game engine has to react to that change, so I had to implement some kind of versioning system.
+As you may know, Sendable classes can only contain `let` properties, whose values are constant. However, I needed a way to produce modified versions of the data whenever a change was made on a map in the editor. And the game engine has to react to that change, so I had to implement some kind of versioning system.
 
-The main issue is that I have a lot of Sendable struct types in CiderKit. And it quickly became apparent that this would require a lot of code to write. And a lot of very similar code, with many functions returning the same structure data with one property modified.
+The main issue is that I have a lot of Sendable types in CiderKit. And it quickly became apparent that this would require a lot of code to write. And a lot of very similar code, with many functions returning the same data with one property modified.
 
 A perfect situation for macros.
 
